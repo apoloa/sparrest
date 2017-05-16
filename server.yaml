@@ -1,0 +1,15 @@
+port: 8080
+routes:
+ - method: GET
+   route: users
+   statusCode: 200
+   response: |
+    [{
+    		"id": 1,
+    		"name": "test 1"
+    	},
+    	{
+    		"id": 2,
+    		"name": "test 2"
+    	}
+    ]
